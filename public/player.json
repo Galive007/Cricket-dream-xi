@@ -1,0 +1,167 @@
+[
+  {
+    "id": 1,
+    "player_image": "https://i.ibb.co/gLzrWnk5/11-500x500.png",
+    "player_name": "Shakib Al Hasan",
+    "player_country": "Bangladesh",
+    "player_role": "All-rounder",
+    "rating": 9.5,
+    "batting_style": "Left-hand bat",
+    "bowling_style": "Slow left-arm orthodox",
+    "player_price": 120000
+  },
+  {
+    "id": 2,
+    "player_image": "https://i.ibb.co/v4T9v9WD/image-215049-1728394846.jpg",
+    "player_name": "Mahmudullah",
+    "player_country": "Bangladesh",
+    "player_role": "All-rounder",
+    "rating": 8.0,
+    "batting_style": "Right-hand bat",
+    "bowling_style": "Right-arm off break",
+    "player_price": 85000
+  },
+  {
+    "id": 3,
+    "player_image": "https://i.ibb.co/bMGJs3R2/gettyimages-1241798988-612x612.jpg",
+    "player_name": "Anamul Haque",
+    "player_country": "Bangladesh",
+    "player_role": "Wicketkeeper / Batter",
+    "rating": 7.5,
+    "batting_style": "Right-hand bat",
+    "bowling_style": "N/A",
+    "player_price": 45000
+  },
+  {
+    "id": 4,
+    "player_image": "https://i.ibb.co/SWpLHnC/af27b2c89f840b3d17639d0654994989.jpg",
+    "player_name": "Taskin Ahmed",
+    "player_country": "Bangladesh",
+    "player_role": "Bowler",
+    "rating": 8.8,
+    "batting_style": "Right-hand bat",
+    "bowling_style": "Right-arm fast",
+    "player_price": 100000
+  },
+  {
+    "id": 5,
+    "player_image": "https://i.ibb.co/RGF31Z4Q/gettyimages-1347898319-1024x1024.jpg",
+    "player_name": "Khushdil Shah",
+    "player_country": "Pakistan",
+    "player_role": "Batter",
+    "rating": 8.2,
+    "batting_style": "Left-hand bat",
+    "bowling_style": "Right-arm off break",
+    "player_price": 60000
+  },
+  {
+    "id": 6,
+    "player_image": "https://i.ibb.co/jP2hJNZC/1834883128483094.jpg",
+    "player_name": "Mehidy Hasan Miraz",
+    "player_country": "Bangladesh",
+    "player_role": "All-rounder",
+    "rating": 8.9,
+    "batting_style": "Right-hand bat",
+    "bowling_style": "Off break",
+    "player_price": 95000
+  },
+  {
+    "id": 7,
+    "player_image": "https://i.ibb.co/V4Y10XS/Mohammad-Naim-Sheikh.jpg",
+    "player_name": "Mohammad Naim",
+    "player_country": "Bangladesh",
+    "player_role": "Batter",
+    "rating": 8.3,
+    "batting_style": "Left-hand bat",
+    "bowling_style": "N/A",
+    "player_price": 50000
+  },
+  {
+    "id": 8,
+    "player_image": "https://i.ibb.co/WX3n2BM/6517da8562bd7-Litton-Das-png-image-Litton-Das-player-of-Bangladesh-cricket-team-png-image.png",
+    "player_name": "Litton Das",
+    "player_country": "Bangladesh",
+    "player_role": "Wicketkeeper / Batter",
+    "rating": 8.1,
+    "batting_style": "Right-hand bat",
+    "bowling_style": "N/A",
+    "player_price": 70000
+  },
+  {
+    "id": 9,
+    "player_image": "https://i.ibb.co/TxLbv10P/gettyimages-2182244548-612x612.jpg",
+    "player_name": "Saim Ayub",
+    "player_country": "Pakistan",
+    "player_role": "Batter",
+    "rating": 7.9,
+    "batting_style": "Left-hand bat",
+    "bowling_style": "N/A",
+    "player_price": 55000
+  },
+  {
+    "id": 10,
+    "player_image": "https://i.ibb.co/R4gPJSPt/7646-camedia.png",
+    "player_name": "Thisara Perera",
+    "player_country": "Sri Lanka",
+    "player_role": "All-rounder",
+    "rating": 8.0,
+    "batting_style": "Right-hand bat",
+    "bowling_style": "Right-arm medium fast",
+    "player_price": 80000
+  },
+  {
+    "id": 11,
+    "player_image": "https://i.ibb.co/zV8F4CqK/gettyimages-1441106845-612x612.jpg",
+    "player_name": "Alex Hales",
+    "player_country": "England",
+    "player_role": "Batter",
+    "rating": 8.5,
+    "batting_style": "Right-hand bat",
+    "bowling_style": "N/A",
+    "player_price": 110000
+  },
+  {
+    "id": 12,
+    "player_image": "https://i.ibb.co/j9wbGxT7/gettyimages-1711633842-612x612.jpg",
+    "player_name": "Dawid Malan",
+    "player_country": "England",
+    "player_role": "Batter",
+    "rating": 8.4,
+    "batting_style": "Left-hand bat",
+    "bowling_style": "N/A",
+    "player_price": 105000
+  },
+  {
+    "id": 13,
+    "player_image": "https://i.ibb.co/XkFT57fD/542409748-18406956457191314-3369296571271755979-n.jpg",
+    "player_name": "Shaheen Shah Afridi",
+    "player_country": "Pakistan",
+    "player_role": "Bowler",
+    "rating": 9.0,
+    "batting_style": "Left-hand bat",
+    "bowling_style": "Left-arm fast",
+    "player_price": 125000
+  },
+  {
+    "id": 14,
+    "player_image": "https://i.ibb.co/NbLdpQv/gettyimages-1713409545-612x612.jpg",
+    "player_name": "Hasan Ali",
+    "player_country": "Pakistan",
+    "player_role": "Bowler",
+    "rating": 8.2,
+    "batting_style": "Right-hand bat",
+    "bowling_style": "Right-arm fast medium",
+    "player_price": 75000
+  },
+  {
+    "id": 15,
+    "player_image": "https://i.ibb.co/mCCgyS9m/F-4bs0-Sa4-AAc-RNG.jpg",
+    "player_name": "Mir Hamza",
+    "player_country": "Pakistan",
+    "player_role": "Bowler",
+    "rating": 7.8,
+    "batting_style": "Left-hand bat",
+    "bowling_style": "Left-arm orthodox",
+    "player_price": 45000
+  }
+]

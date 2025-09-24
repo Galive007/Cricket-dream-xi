@@ -4,9 +4,9 @@ import { faCoins } from '@fortawesome/free-solid-svg-icons';
 import navImg from '../../assets/logo.png'
 
 
-const Navbar = () => {
+const Navbar = ({availableBalance}) => {
     return (
-        <div className='max-w-[1320px] mx-auto'>
+        <div className='max-w-[1280px] mx-auto'>
             <div className="navbar py-5">
                 <div className="navbar-start">
                     <div className="dropdown">
@@ -34,7 +34,9 @@ const Navbar = () => {
                             <li><a className='text-[#131313b3] mr-[20px]'>Schedules</a></li>
                         </ul>
                     </div>
-                    <a className="btn"><span>6000000000</span>Coin <FontAwesomeIcon className='text-amber-400' icon={faCoins} /></a>
+                    <a  className="btn">
+                        <span>{availableBalance}</span>Coin 
+                        <FontAwesomeIcon className='text-amber-400' icon={faCoins} /></a>
                 </div>
             </div>
         </div>
