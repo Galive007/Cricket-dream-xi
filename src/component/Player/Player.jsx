@@ -1,11 +1,39 @@
 import React, { useState } from 'react';
 import cardIcon from '../../assets/user 1.svg'
 import cardIcon2 from '../../assets/report 1.svg'
+import { toast } from 'react-toastify';
 
 
 
-const Player = ({player,setAvailableBalance,availableBalance}) => {
+const Player = ({ player, setAvailableBalance, availableBalance, setPurchasedPlayer, purchasedPlayer }) => {
+    
     const [isSelected, setIsSelected] = useState(false)
+
+
+    const handleSelected = (player) => {
+        if(purchasedPlayer.length==6){
+            toast('Already 6 Player Selected')
+            return
+        }
+        console.log(player);
+        console.log(purchasedPlayer);
+        
+        // if(player.id==purchasedPlayer.id){
+        //     toast('already added')
+        // }
+        
+        if (availableBalance < 30000) {
+            toast('Not Enough Funds')
+            return
+        }
+        if (availableBalance < player.player_price) {
+            toast('You Do Not Have Enough Money')
+            return
+        }
+        setIsSelected(true)
+        setAvailableBalance(availableBalance - player.player_price)
+        setPurchasedPlayer([...purchasedPlayer,player])
+    }
     return (
         <div className="card bg-base-100 shadow-sm p-4">
             <figure>
@@ -36,18 +64,7 @@ const Player = ({player,setAvailableBalance,availableBalance}) => {
                     </div>
                     <div className="card-actions justify-between items-center">
                         <span className='text-[#131313] font-bold'>Price:${player.player_price}</span>
-                        <button disabled={isSelected} onClick={() => {
-                            if(availableBalance<30000){
-                                alert('Not Enough Funds')
-                                return
-                            }
-                            if(availableBalance<player.player_price){
-                                alert('You Do Not Have Enough Money' )
-                                return
-                            }
-                            setIsSelected(true)
-                            setAvailableBalance(availableBalance-player.player_price)
-                        }} className="btn ">{isSelected ? 'Selected' : 'Choose Player'}</button>
+                        <button disabled={isSelected} onClick={() => { handleSelected(player) }} className="btn ">{isSelected ? 'Selected' : 'Choose Player'}</button>
                     </div>
                 </div>
             </div>
